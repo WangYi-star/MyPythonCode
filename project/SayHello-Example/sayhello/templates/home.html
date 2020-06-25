@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简易留言板</title>
+     <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+</head>
+<body>
+
+<div align="right">
+          <form method="POST" class="textcenter" >
+          <input type="text" name="username" placeholder="根据用户名查询">
+          <input type="content" name="content" placeholder="根据内容查询">
+          <input type="submit" value="查询">
+          <input type="reset" value="重置">
+          </form>
+          <td><a target="_blank" href={{url_for('mymess',username=username,page=1)}} >我的留言</a></td>
+      <br>
+  </div>
+            <form method="POST">
+              {{ form.csrf_token }}
+        我的留言:
+        <br>
+              {{form.body }}
+                    <style type="text/css">
+        #contentcode {
+            width: 666px;
+            height: 50px;
+        }
+    </style>
+        <br><br>
+              {{form.submit}}
+              <br><br>
+        </form>
+
+  <div>
+  <table border="1" cellpadding="0" cellspacing="0" bgcolor="#fff" width="100%">
+      <tr class="textcenter">
+				<td><h2>留言列表</h2></td>
+			</tr>
+            {% for message in blogs %}
+			<tr>
+				<td>
+					<div class="userinfo">
+						<div class="headpic">
+							<img src="../static/images/b.png" width=70% /><br>
+						</div>
+						<div style="margin-left: 10%">
+							<h4 class="title">{{message.name}}</h4>
+							<span class="datetime">{{message.timestamp}}</span>
+							<p class="content" >{{message.body}}</p>
+						</div>
+
+					</div>
+				</td>
+			</tr>
+            {% endfor %}
+		</table>
+</div>
+<div style="text-align: center">
+    {%if searchcontent %}
+{%import 'pages_search.html' as pg%}
+{{pg.my_paginate(pagination,'home',username,searchname,searchcontent)}}
+        {% elif searchname%}
+{%import 'pages_search.html' as pg%}
+{{pg.my_paginate(pagination,'home',username,searchname,searchcontent)}}
+    {% else %}
+    {%import 'pages.html' as pg%}
+{{pg.my_paginate(pagination,'home',username)}}
+    {% endif %}
+
+</div>
+</body>
+</html>

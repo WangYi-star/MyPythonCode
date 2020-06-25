@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>留言板登录系统</title>
+    <style type="text/css">
+body {
+    font-family: KaiTi;
+    font-size: 18px;
+    line-height: 1.428571429;
+    color: #333333;
+    background-color: #ffffff;
+}
+</style>
+</head>
+<body>
+<div align="center">
+        <br><br><br>
+        <br><br>
+    <h2>留言板</h2>
+    <h2>登录界面</h2>
+    <form method="POST">
+        用户名: {{form.username}}
+        <br>
+        <br>
+        密&nbsp;&nbsp;码: {{form.password}}
+        <br>
+        <br>
+        <input type="submit" value="登录">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="重置">
+        <br>
+        <br>
+        <div class="form-group text-center">
+            没有账号？  <a type="submit" href="/register">立即注册</a>
+        </div>
+    </form>
+</div>
+</body>
+</html>

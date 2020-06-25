@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简易留言板-我的留言</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+</head>
+<body>
+	<div>
+<h2 style="text-align: center">我的留言</h2>
+    <form method="POST">
+		修改留言信息： <br><textarea rows="3" cols="30" name="content" id="field2" placeholder="请先选择要修改的留言，点击‘更改’。" required></textarea>>
+		<br>
+        <br>
+        <input type="submit" value="修改">
+        <input type="reset" value="重置">
+        <br>
+        <br>
+    </form>
+</div>
+  <div>
+  <table border="1" cellpadding="0" cellspacing="0" bgcolor="#fff" width="100%">
+			<tr class="textcenter">
+				<td><h2>留言列表</h2></td>
+				<td>操作</td>
+			</tr>
+			{% for message in messages %}
+			<tr>
+				<td>
+					<div class="userinfo">
+						<div class="headpic">
+							<img src="../static/images/b.png" width=70% /><br>
+						</div>
+						<div style="margin-left: 10%">
+							<h4 class="title">{{message.name}}</h4>
+							<span class="datetime">{{message.timestamp}}</span>
+							<p class="content" contenteditable="true">{{message.body}}</p>
+						</div>
+
+					</div>
+				</td>
+				<td align="center"><a href={{url_for('mymess',username=username,page=page,messid=message.id)}}  onclick="alert('请在信息修改区写入修改后的信息！')">更改
+				</a>|<a href={{url_for('mymess',username=username,page=page,messid=message.id,dele=1)}}
+						onclick="alert('该信息已删除！')">删除</a></td>
+			</tr>
+            {% endfor %}
+		</table>
+</div>
+<div style="text-align: center">
+
+{%import 'pages.html' as pg%}
+{{pg.my_paginate(pagination,'mymess',username)}}
+</div>
+
+</body>
+</html>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04a60727-a9cd-4a81-bb80-113fa5839fb6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c59HlvHEUCeJ83TZwoHKBy0F2W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../da-WebProgramming/mydownload/sayhello-master" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\应用程序\Python\da-Web\SayHello-Example\sayhello\static\images" />
+      <recent name="E:\应用程序\Python\da-Web\SayHello-Example\sayhello\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="index1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SayHello-Example/sayhello/templates/index1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SayHello-Example/sayhello/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SayHello-Example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SayHello-Example" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.app1" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index1.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04a60727-a9cd-4a81-bb80-113fa5839fb6" name="Default Changelist" comment="" />
+      <created>1589807501127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589807501127</updated>
+      <workItem from="1589807502398" duration="1424000" />
+      <workItem from="1589856397959" duration="4544000" />
+      <workItem from="1589877356441" duration="7354000" />
+      <workItem from="1589950322292" duration="18000" />
+      <workItem from="1589956671416" duration="4151000" />
+      <workItem from="1589979359424" duration="5287000" />
+      <workItem from="1590026083537" duration="9653000" />
+      <workItem from="1590062576219" duration="7329000" />
+      <workItem from="1590129439429" duration="10678000" />
+      <workItem from="1590189763144" duration="6777000" />
+      <workItem from="1590287816989" duration="2818000" />
+      <workItem from="1590316516990" duration="45000" />
+      <workItem from="1590316986892" duration="1227000" />
+      <workItem from="1590414970526" duration="9397000" />
+      <workItem from="1591836359716" duration="694000" />
+      <workItem from="1592528004606" duration="10966000" />
+      <workItem from="1592617985994" duration="10046000" />
+      <workItem from="1592697499504" duration="7896000" />
+      <workItem from="1592873122905" duration="1251000" />
+      <workItem from="1593043280602" duration="13917000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="196" y="90" width="1089" height="675" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590290289572">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="196" y="90" width="1089" height="675" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1590290289572" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592532899566">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1592532899566" />
+    <state x="663" y="139" key="FileChooserDialogImpl" timestamp="1593048392815">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="663" y="139" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593048392815" />
+    <state width="1493" height="39" key="GridCell.Tab.0.bottom" timestamp="1593066719020">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="39" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593066719020" />
+    <state width="1493" height="39" key="GridCell.Tab.0.center" timestamp="1593066719020">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="39" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593066719020" />
+    <state width="1493" height="39" key="GridCell.Tab.0.left" timestamp="1593066719020">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="39" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593066719020" />
+    <state width="1493" height="39" key="GridCell.Tab.0.right" timestamp="1593066719020">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="39" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593066719020" />
+    <state width="1098" height="218" key="GridCell.Tab.1.bottom" timestamp="1590198100460">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1098" height="218" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590198100460" />
+    <state width="1098" height="218" key="GridCell.Tab.1.center" timestamp="1590198100460">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1098" height="218" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590198100460" />
+    <state width="1098" height="218" key="GridCell.Tab.1.left" timestamp="1590198100460">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1098" height="218" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590198100460" />
+    <state width="1098" height="218" key="GridCell.Tab.1.right" timestamp="1590198100460">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1098" height="218" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590198100460" />
+    <state x="384" y="26" key="SettingsEditor" timestamp="1592705487325">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="384" y="26" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592705487325" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1593043279826">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593043279826" />
+    <state x="473" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592541862429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="473" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592541862429" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SayHello_Example$app1.coverage" NAME="app1 Coverage Results" MODIFIED="1592530222963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SayHello_Example$app.coverage" NAME="app Coverage Results" MODIFIED="1593066565584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
